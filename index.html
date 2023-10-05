@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id=>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+
+    
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
+</head>
+<body >
+
+    <nav class="navbar" id="Home">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-globe"></i> Code by Geoffrey</a>
+            <!--<img src="./img/logo.png" alt="" class="logo">-->
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#craft">Craft</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social-icons mt-3">
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <li><a href="https://www.github.com/" target="_blank"><i class="fa fa-github"></i></a>             
+        </div>
+        </div>
+       
+    </nav>
+    <div class="toggle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+
+
+    <!-- Header -->
+    <header class="header container">
+        <div class="circle"></div>
+        <div class="row hero">
+            <div class="col col-1">
+                <h1>Hey, I’m a <span class="highlight">Front-End</span> web developer. </h1>
+                <p>Hi, I'm Geoffrey a freelance web designer from Kabianga.
+                    I help brands turn their ideas into high quality websites.</p>
+                <a href="#" class="ctn">Contact</a>    
+            </div>
+            <div class="col col-2">
+                <div class="hero-img">
+                    <img src="./img/y2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Skills -->
+   <!--<section class="skills container" id="skills">
+        <div class="title">
+            <h3>MY SKILLS</h3>
+            <h1>My Expertise</h1>
+        </div>
+        <div class="grid-wrapper">
+            <div class="grid-box">
+                <div class="icon-title">
+                    <img src="./img/skill-2.png" alt="Website Design">
+                    <h2>Website Design</h2>
+                </div>
+                <p><span class="highlight">Website Design</span> is where I excel. I have a keen eye for aesthetics and a passion for creating visually appealing websites. From choosing the perfect color schemes to selecting the right typography and graphics, I can craft a stunning web presence that effectively communicates your brand's identity and message.</p>
+            </div>
+            <div class="grid-box">
+                <div class="icon-title">
+                    <img src="./img/skill-1.png" alt="Responsive Web Design">
+                    <h2>Responsive Web Design</h2>
+                </div>
+                <p> <span class="highlight">Responsive Web Design</span> is my specialty. I have a deep understanding of creating websites that adapt seamlessly to various screen sizes and devices. I use fluid grids, flexible images, and media queries to ensure an optimal user experience. Whether it's a desktop, tablet, or smartphone, I can make your website look and function flawlessly on all platforms.</p>
+            </div>    
+            <div class="grid-box">
+                <div class="icon-title">
+                    <img src="./img/skill-3.png" alt="">
+                    <h2>DevOps</h2>
+                </div>
+                <p><span class="highlight">DevOps</span> is another area where I excel. I have a strong background in automating and streamlining the software development and deployment process. With expertise in tools like Jenkins, Docker, and Kubernetes, I can help your team achieve faster and more reliable releases. My experience in continuous integration, continuous deployment (CI/CD), and infrastructure as code (IaC) ensures that your projects run smoothly and efficiently.</p>
+            </div>
+            <div class="grid-box">
+                <div class="icon-title">
+                    <img src="./img/skill-4.png" alt="">
+                    <h2>Website Deployment</h2>
+                </div>
+                <p><span class="highlight">Website Deployment</span>is another area where I excel. I have a proven track record of successfully deploying websites to various hosting environments. Whether it's a shared hosting server, a cloud-based platform like AWS or Azure, or a custom server setup, I can ensure a smooth and hassle-free deployment process. I'm well-versed in configuring web servers, handling domain and DNS settings, and optimizing websites for performance and security, so your online presence is always up and running flawlessly.</p>
+            </div>
+           
+        </div>
+    </section>-->
+
+    <!--skills section table-->
+    <section class="skills container" id="skills">
+        <div class="title">
+            <h3>MY SKILLS</h3>
+            <h1>My Expertise</h1>
+        </div>
+        <div class="table-responsive">
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Design</td>
+                        <td>I excel in creating visually appealing web designs, selecting color schemes, and crafting user-friendly interfaces.</td>
+                    </tr>
+                    <tr>
+                        <td>Responsive Web Design</td>
+                        <td>I specialize in designing websites that adapt seamlessly to various screen sizes and devices.</td>
+                    </tr>
+                    <tr>
+                        <td>Front-end Development</td>
+                        <td>I have expertise in HTML, CSS, and JavaScript, allowing me to build interactive and engaging web applications.</td>
+                    </tr>
+                    <tr>
+                        <td>Back-end Development</td>
+                        <td>I'm skilled in server-side technologies like Node.js and Python, enabling me to create robust and scalable web applications.</td>
+                    </tr>
+                    <tr>
+                        <td>Database Management</td>
+                        <td>I can design and manage databases using SQL and NoSQL databases, ensuring data integrity and performance.</td>
+                    </tr>
+                    <tr>
+                        <td>DevOps</td>
+                        <td>I'm experienced in automating software development and deployment processes, optimizing CI/CD pipelines, and managing infrastructure efficiently.</td>
+                    </tr>
+                    <tr>
+                        <td>Version Control</td>
+                        <td>I use Git and GitHub for version control, making collaboration with teams smooth and efficient.</td>
+                    </tr>
+                    <tr>
+                        <td>UI/UX Design</td>
+                        <td>I focus on creating intuitive and user-centered designs, enhancing the overall user experience.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio container" id="portfolio">
+        <div class="rect-bg"></div>
+        <div class="title">
+            <h3>PORTFOLIO</h3>
+            <div class="ctn-title">
+                <h1>All Creative Works</h1>
+                <h4>Discover All Projects on <span class="highlight">Github <i class="fa fa-arrow-right"></i></span></h4>
+            </div>
+        </div>
+        <div class="grid-wrapper">
+            <div class="grid-box">
+                <img src="./img/prj-1.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="grid-box">
+                <img src="./img/prj-2.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+                
+           <!--</div>
+            <div class="grid-box">
+                <img src="./img/prj-3.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>-->
+               
+            </div>
+            <div class="grid-box">
+                <img src="./img/prj-4.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+            
+            <!--</div>
+            <div class="grid-box">
+                <img src="./img/prj-5.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+               
+            </div>
+            <div class="grid-box">
+                <img src="./img/prj-4.png" alt="">
+                <div class="hover">
+                    <h4>Application</h4>
+                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
+                </div>
+               
+            </div>
+        </div>-->
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials" id="craft">
+        <div class="container">
+            <div class="title">
+                <h3>CRAFT AMAZING</h3>
+                <h1>Customer Testimonials</h1>
+            </div>
+            <div class="grid-wrapper">
+                <div class="grid-box">
+                    <img src="./img/customer1.png" alt="">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I'm impressed with Geoffrey's web development skills. He created an amazing website for our company</p>
+                    <h4>Nyasimi Vincent</h4>
+                    <p>Marketing Manager</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="grid-box">
+                    <img src="./img/customer2.png" alt="">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Geoffrey is a talented web developer. He delivered our project on time and exceeded our expectations</p>
+                    <h4>Jane Wafula</h4>
+                    <p>Product Manager</p>
+                    <div class="rating-1">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="grid-box">
+                    <img src="./img/customer3.png" alt="">
+                    <i class="fa fa-quote-left"></i>
+                    <p>We hired Geoffrey for a complex project, and he handled it with great professionalism. Highly recommended!</p>
+                    <h4>Michelle Moraa</h4>
+                    <p>CEO</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h3>CONTACT ME</h3>
+            <h1>Got A Project! Let's Talk</h1>
+            <h3><i class="fa fa-envelope-o"></i> hello@website.com</h3>
+            <div class="quick-links">
+                <div class="brand"><img src="./img/logo.png" alt=""></div>
+                <ul>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#craft">Craft</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <div class="copyright container">
+        <p>©NYAEGA GEOFFREY NYAKENANDA</p>
+        <P>©COM/M/0048/2021</P>  
+    </div>
+
+ <!-- Footer Section -->
+ <footer class="container-fluid footer" id="footer">
+    <!-- Social Media Icons -->
+    <div class="social-icons mt-4">
+        <h1>Name:Nyaega Geoffrey</h1>
+        <h3>Reg no:COM/M/0048/2021</h3>
+    </div>
+</footer>
+    
+    <script>
+        let togglebtn = document.querySelector('.toggle-btn')
+        let navbar = document.querySelector('.navbar')
+
+        togglebtn.addEventListener('click', ()=>{
+            navbar.classList.toggle('mobile-nav')
+        } )
+    </script>
+</body>
+</html>
